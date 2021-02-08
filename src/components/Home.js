@@ -8,7 +8,7 @@ function Home() {
         <div className="bg-gray-700 rounded-full lg:w-96 md:w-72 sm:w-48 w-40 m-10 shadow-2xl transition duration-700 ease-in-out animate-bounce">
           <img src={image} alt="profile" className="rounded-full p-2" />
         </div>
-        <h1 className="lg:text-8xl md:text-6xl sm:text-7xl text-7xl font-black text-gray-700 mb-14">
+        <h1 className="flex lg:text-8xl md:text-6xl sm:text-5xl text-5xl font-black text-gray-700 mb-14">
           Desarrollador web Full Stack
         </h1>
       </div>

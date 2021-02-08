@@ -1,5 +1,5 @@
 import React from 'react';
-import {Data} from '../../Datos/DatosReact';
+import {Data} from '../../Datos/DatosDjango';
 
 function Django() {
     return (
