@@ -34,7 +34,7 @@ function HomePro() {
         <NavbarNew toggleY={toggleY}></NavbarNew>
         <DropdownPro isOpenY={isOpenY} toggleY={toggleY}></DropdownPro>
         <Switch>
-          <Route component={Mern} path="/mern " />
+          <Route component={Mern} path="/mern" />
           <Route component={ReactComp} path="/react" />
           <Route component={Next} path="/next" />
           <Route component={Flutter} path="/flutter" />
