@@ -3,10 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      backgroundImage:{
-        project1:
-          "url('./img/books.png')",
-      }
+     
     },
   },
   variants: {

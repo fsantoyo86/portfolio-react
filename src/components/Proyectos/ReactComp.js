@@ -1,13 +1,16 @@
 import React from "react";
 import { Data } from "../../Datos/DatosReact";
-import image from '../../img/books.png';
 
 function ReactComp(){
     return (
       <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 bg-green-400 justify-items-center">
         {Data.map((db) => (
           <div className="max-w-xs bg-white rounded-xl overflow-hidden shadow-lg mx-5 my-5">
-            <img src={image} alt="Proyecto" />
+              <img
+                src={process.env.PUBLIC_URL + db.image}
+                alt="Proyecto"
+                className="h-40"
+              />
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">{db.title}</div>
               <p className="text-gray-darker text-base">{db.overview}</p>
@@ -15,14 +18,14 @@ function ReactComp(){
             <div className="px-6 py-4 text-blue-500 font-bold">
               <a
                 className="p-3 rounded-lg hover:bg-gray-700 hover:text-white"
-                href="https://book-store-fsantoyo.netlify.app/"
+                href={db.sitio}
                 target="__blank"
               >
                 Sitio
               </a>
               <a
                 className="p-3 rounded-lg hover:bg-gray-700 hover:text-white"
-                href="https://github.com/fsantoyo86/book-store"
+                href={db.github}
                 target="__blank"
               >
                 Github
