@@ -27,7 +27,7 @@ function Navbar({toggle}) {
         <div className="pr-8 md:block hidden">
           <NavLink to="/" exact className="p-4 hover:text-white">Home</NavLink>
           <NavLink to="/resume" className="p-4 hover:text-white">Resumen</NavLink>
-          <NavLink to="/projects" exact className="p-4 hover:text-white">Proyectos</NavLink>
+          <NavLink to="/projectsM" exact className="p-4 hover:text-white">Proyectos</NavLink>
           <NavLink to="/courses" className="p-4 hover:text-white">Cursos</NavLink>
           <NavLink to="/about" className="p-4 hover:text-white">Acerca De</NavLink>
         </div>
