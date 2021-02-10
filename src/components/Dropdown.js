@@ -25,7 +25,7 @@ function Dropdown({isOpen,toggle}) {
           Resumen
         </NavLink>
         <NavLink
-          to="/projects"
+          to="/projectsM"
           className="p-4 hover:text-gray-700 hover:bg-green-400"
         >
           Proyectos
