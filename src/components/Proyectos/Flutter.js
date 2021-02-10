@@ -1,6 +1,6 @@
 import React from "react";
 import { Data } from "../../Datos/DatosFlutter";
-import image from "../../../public/img/12.jpg";
+import image from "../../img/12.jpg";
 
 
 function Flutter(){
@@ -19,14 +19,14 @@ function Flutter(){
                 href="https://book-store-fsantoyo.netlify.app/"
                 target="__blank"
               >
-                Sitio
+                Sitio Web ->
               </a>
               <a
                 className="p-3 rounded-lg hover:bg-gray-700 hover:text-white"
                 href="https://github.com/fsantoyo86/book-store"
                 target="__blank"
               >
-                Github
+                Github ->
               </a>
             </div>
           </div>

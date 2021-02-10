@@ -21,14 +21,14 @@ function ReactComp(){
                 href={db.sitio}
                 target="__blank"
               >
-                Sitio
+                Sitio Web ->
               </a>
               <a
                 className="p-3 rounded-lg hover:bg-gray-700 hover:text-white"
                 href={db.github}
                 target="__blank"
               >
-                Github
+                Github ->
               </a>
             </div>
           </div>
