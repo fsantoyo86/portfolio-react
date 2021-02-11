@@ -3,6 +3,9 @@ export const Data = [
     id: 1,
     title: "Página Noticias",
     overview:
-      "Proyecto ...",
+      "Proyecto realizado en NextJs que muestra una página de noticias que se alimenta de la api Newsapi",
+    image: "./img/news.png",
+    sitio: "https://news-fasv.vercel.app/",
+    github: "https://github.com/fsantoyo86/news-fasv",
   },
 ];
