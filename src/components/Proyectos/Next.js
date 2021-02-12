@@ -1,6 +1,5 @@
 import React from "react";
 import { Data } from "../../Datos/DatosNext";
-import image from "../../img/12.jpg";
 
 
 function Next(){
