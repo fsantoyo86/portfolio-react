@@ -37,12 +37,6 @@ function DropdownPro({isOpenY,toggleY}) {
           Flutter
         </NavLink>
         <NavLink
-          to="/django"
-          className="p-4 hover:text-white hover:bg-gray-700"
-        >
-          Django
-        </NavLink>
-        <NavLink
           to="/javascript"
           className="p-4 hover:text-white hover:bg-gray-700"
         >

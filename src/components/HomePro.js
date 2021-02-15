@@ -7,7 +7,6 @@ import DropdownPro from "./Proyectos/DropdownPro";
 import ReactComp from "./Proyectos/ReactComp";
 import Mern from "./Proyectos/Mern";
 import Flutter from "./Proyectos/Flutter";
-import Django from "./Proyectos/Django";
 import Next from "./Proyectos/Next";
 import JavaScript from "./Proyectos/JavaScript";
 
@@ -38,7 +37,6 @@ function HomePro() {
           <Route component={ReactComp} path="/react" />
           <Route component={Next} path="/next" />
           <Route component={Flutter} path="/flutter" />
-          <Route component={Django} path="/django" />
           <Route component={JavaScript} path="/javascript" />
         </Switch>
       </BrowserRouter>
