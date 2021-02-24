@@ -1,9 +1,9 @@
 import React from "react";
-import { Data } from "../../Datos/DatosFlutter";
+import { Data } from "../../Datos/DatosReactNative";
 import image from "../../img/12.jpg";
 
 
-function Flutter(){
+function ReactNative(){
     return (
       <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 bg-green-400 justify-items-center">
         {Data.map((db) => (
@@ -34,4 +34,4 @@ function Flutter(){
       </div>
     );
 }
-export default Flutter;
+export default ReactNative;

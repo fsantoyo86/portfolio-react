@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import DropdownPro from "./Proyectos/DropdownPro";
 import ReactComp from "./Proyectos/ReactComp";
 import Mern from "./Proyectos/Mern";
-import Flutter from "./Proyectos/Flutter";
+import ReactNative from "./Proyectos/ReactNative";
 import Next from "./Proyectos/Next";
 import JavaScript from "./Proyectos/JavaScript";
 
@@ -33,10 +33,10 @@ function HomePro() {
         <NavbarNew toggleY={toggleY}></NavbarNew>
         <DropdownPro isOpenY={isOpenY} toggleY={toggleY}></DropdownPro>
         <Switch>
-          <Route component={Mern} path="/mern"/>
+          <Route component={Mern} path="/mern" />
           <Route component={ReactComp} path="/react" />
           <Route component={Next} path="/next" />
-          <Route component={Flutter} path="/flutter" />
+          <Route component={ReactNative} path="/reactnative" />
           <Route component={JavaScript} path="/javascript" />
         </Switch>
       </BrowserRouter>

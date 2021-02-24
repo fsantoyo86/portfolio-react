@@ -31,10 +31,10 @@ function DropdownPro({isOpenY,toggleY}) {
           Next
         </NavLink>
         <NavLink
-          to="/flutter"
+          to="/reactnative"
           className="p-4 hover:text-white hover:bg-gray-700"
         >
-          Flutter
+          ReactNative
         </NavLink>
         <NavLink
           to="/javascript"

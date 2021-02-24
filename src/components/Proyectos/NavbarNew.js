@@ -25,10 +25,10 @@ function NavbarNew({toggleY}) {
           </svg>
         </div>
         <div className="pr-8 md:block hidden">
-
           <NavLink
             to="/mern"
             className="p-4 hover:text-white hover:bg-gray-700 rounded-lg"
+            activeClassName="bg-gray-700 text-white"
           >
             MERN
           </NavLink>
@@ -36,24 +36,28 @@ function NavbarNew({toggleY}) {
           <NavLink
             to="/react"
             className="p-4 hover:text-white hover:bg-gray-700 rounded-lg"
+            activeClassName="bg-gray-700 text-white"
           >
             React
           </NavLink>
           <NavLink
             to="/next"
             className="p-4 hover:text-white hover:bg-gray-700 rounded-lg"
+            activeClassName="bg-gray-700 text-white"
           >
             Next
           </NavLink>
           <NavLink
-            to="/flutter"
+            to="/reactnative"
             className="p-4 hover:text-white hover:bg-gray-700 rounded-lg"
+            activeClassName="bg-gray-700 text-white"
           >
-            Flutter
+            ReactNative
           </NavLink>
           <NavLink
             to="/javascript"
             className="p-4 hover:text-white hover:bg-gray-700 rounded-lg"
+            activeClassName="bg-gray-700 text-white"
           >
             JavaScript
           </NavLink>
