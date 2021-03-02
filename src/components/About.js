@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="bg-green-400 flex justify-items-center items-center w-screen h-auto lg:h-screen lg:flex-row md:flex-col sm:flex-col flex-col lg:my-0">
+    <div className="bg-green-400 flex font-Jura justify-items-center items-center w-screen h-auto lg:h-screen lg:flex-row md:flex-col sm:flex-col flex-col lg:my-0">
       <div className="lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-lg shadow-2xl bg-white opacity-75 mx-6 lg:mx-60">
         <div className="p-4 md:p-12 text-center lg:text-left">
           <h1 className="text-3xl font-bold mb-5 pt-8 lg:pt-0">

@@ -4,7 +4,7 @@ import iso from '../img/logo-iso.png';
 
 function Courses() {
   return (
-    <div>
+    <div className="font-Jura">
       <section class=" text-gray-700 bg-green-400 h-3/6">
         <div class="max-w-6xl mx-auto px-5 py-10 ">
           <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">

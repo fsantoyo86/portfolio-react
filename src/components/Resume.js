@@ -3,7 +3,7 @@ import image from '../img/resume.jpg'
 
 function Resume() {
     return (
-      <div className="bg-green-400 text-gray-700 md:flex mx-auto font-mono">
+      <div className="bg-green-400 text-gray-700 md:flex mx-auto font-Jura">
         <div className="md:w-1/2 p-2 border-r-2 border-gray-700 border-dotted">
           <div className="md:fixed">
             <div className="md:block">
@@ -23,7 +23,7 @@ function Resume() {
             </div>
           </div>
         </div>
-        <div className="md:w-2/3 p-2 w-full font-mono">
+        <div className="md:w-2/3 p-2 w-full font-Jura">
           <div className="mx-4 mb-6">
             <h1 className="mb-4 lg:text-4xl md:text-3xl sm:text-3xl text-3xl text-gray-700 font-bold">
               Resumen

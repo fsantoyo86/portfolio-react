@@ -6,7 +6,7 @@ function Dropdown({isOpen,toggle}) {
       <div
         className={
           isOpen
-            ? "grid grid-rows-4 text-center items-center text-green-400 bg-gray-700"
+            ? "grid grid-rows-4 text-center font-Jura items-center text-green-400 bg-gray-700"
             : "hidden"
         }
         onClick={toggle}
