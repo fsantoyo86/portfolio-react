@@ -2,8 +2,6 @@ import React from "react";
 import { Data } from "../Datos/DatosFull";
 import Slider from './Slider';
 
-
-
 function Mern(){
     return (
       <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 bg-green-400 justify-items-center">
@@ -11,7 +9,7 @@ function Mern(){
           <div className="font-Jura w-5/6 bg-white rounded-sm overflow-hidden shadow-lg mx-5 my-5">
             <Slider
               slides={db.dataImage}
-              className="lg:w-auto md:w-auto sm:w-auto w-auto h-56"
+              className="lg:w-auto md:w-auto sm:w-auto w-auto h-44"
             ></Slider>
             <div className="px-6 py-4">
               <div className="border-b-solid border-b-2 border-gray-200 pb-1 font-bold text-xl mb-2">

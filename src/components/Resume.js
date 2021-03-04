@@ -67,16 +67,16 @@ function Resume() {
                   Python
                 </span>
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
-                  Flutter
+                  C#
                 </span>
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
                   React Native
                 </span>
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
-                  Python
+                  Java
                 </span>
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
-                  Ruby
+                  Docker
                 </span>
               </li>
             </ul>

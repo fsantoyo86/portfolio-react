@@ -36,7 +36,7 @@ export default function Slider({ slides }) {
               <img
                 src={slide.image}
                 alt="Nutrición"
-                className="w-full h-72 rounded-sm"
+                className="w-full h-56 rounded-sm"
               />
             )}
           </div>
