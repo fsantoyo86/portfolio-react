@@ -1,5 +1,26 @@
 export const Data = [
   {
+    id: 9,
+    title: "Nutrióloga",
+    overview:
+      "Página personal Nutrióloga.",
+    image: "./img/empleados.png",
+    dataImage: [
+      {
+        image: "/img/nutricion1.png",
+      },
+      {
+        image: "/img/nutricion2.png",
+      },
+      {
+        image: "/img/nutricion3.png",
+      },
+    ],
+    tec: "React, TailwindsCss, Netlify",
+    sitio: "https://nutricion-rosalba.netlify.app/",
+    github: "https://github.com/fsantoyo86/empleados-CRUD",
+  },
+  {
     id: 1,
     title: "Registro Empleados CRUD",
     overview:
@@ -129,7 +150,6 @@ export const Data = [
       {
         image: "/img/news.png",
       },
-    
     ],
     tec: "Next Js, Vercel, ApiNews",
     sitio: "https://news-next-tailwind.vercel.app/",
@@ -148,7 +168,6 @@ export const Data = [
       {
         image: "/img/quiz.png",
       },
-     
     ],
     tec: "HTML, CSS, JavaScript",
     sitio: "https://test-fisica.netlify.app/",
@@ -167,7 +186,6 @@ export const Data = [
       {
         image: "/img/todo.png",
       },
-      
     ],
     tec: "HTML, CSS, JavaScript",
     sitio: "https://todo-list-zeta-pied.vercel.app/",
