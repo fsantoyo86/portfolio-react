@@ -29,39 +29,25 @@ function Resume() {
               Resumen
             </h1>
             <p className="text-lg">
-              Profesional con pasión por la programación, el front end y el análisis de datos. Capacidad
-              de investigación y resolución de problemas. Gusto por la planeación y organización de proyectos. 
-              Habilidad para trabajar bajo presión y encontrar soluciones creativas a los problemas. Interés en nuevas
-              tecnologías y la creación de nuevas ideas.
+              Profesional con pasión por la programación, el front end y el
+              análisis de datos. Capacidad de investigación y resolución de
+              problemas. Gusto por la planeación y organización de proyectos.
+              Habilidad para trabajar bajo presión y encontrar soluciones
+              creativas a los problemas. Interés en nuevas tecnologías y la
+              creación de nuevas ideas.
             </p>
           </div>
           <div className="mx-4">
             <h1 className="mb-4 text-4xl text-gray-700 font-bold">Skills</h1>
             <ul>
               <li className="mb-6 flex flex-wrap">
-                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
-                  ReactJS
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-white font-medium bg-gray-700">
+                  Programming Languages:
                 </span>
+              </li>
+              <li className="mb-6 flex flex-wrap">
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
-                  NodeJS
-                </span>
-                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
-                  MongoDB
-                </span>
-                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
-                  ExpressJS
-                </span>
-                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
-                  NextJS
-                </span>
-                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
-                  Django python
-                </span>
-                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2  text-green-500 font-medium bg-gray-700">
-                  Mysql/MariaDB
-                </span>
-                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
-                  Tailwind css
+                  Java
                 </span>
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
                   Python
@@ -70,13 +56,96 @@ function Resume() {
                   C#
                 </span>
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
+                  Ruby
+                </span>
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
+                  Fortran
+                </span>
+              </li>
+              <li className="mb-6 flex flex-wrap">
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-white font-medium bg-gray-700">
+                  Data Bases:
+                </span>
+              </li>
+              <li className="mb-6 flex flex-wrap">
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
+                  MySQL
+                </span>
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
+                  MariaDB
+                </span>
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
+                  MongoDB
+                </span>
+              </li>
+              <li className="mb-6 flex flex-wrap">
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-white font-medium bg-gray-700">
+                  Frameworks:
+                </span>
+              </li>
+              <li className="mb-6 flex flex-wrap">
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
+                  Express JS
+                </span>
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
+                  Nest JS
+                </span>
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
+                  React JS
+                </span>
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
+                  Next JS
+                </span>
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
+                  Gatsby
+                </span>
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
+                  Ruby on Rails
+                </span>
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
+                  Django
+                </span>
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
+                  Tailwind CSS
+                </span>
+              </li>
+              <li className="mb-6 flex flex-wrap">
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-white font-medium bg-gray-700">
+                  Mobile Apps:
+                </span>
+              </li>
+              <li className="mb-6 flex flex-wrap">
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
                   React Native
                 </span>
+              </li>
+              <li className="mb-6 flex flex-wrap">
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-white font-medium bg-gray-700">
+                  Unit testing:
+                </span>
+              </li>
+              <li className="mb-6 flex flex-wrap">
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
-                  Java
+                  Jest
                 </span>
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
-                  Docker
+                  Enzyme
+                </span>
+              </li>
+              <li className="mb-6 flex flex-wrap">
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-white font-medium bg-gray-700">
+                  Stack:
+                </span>
+              </li>
+              <li className="mb-6 flex flex-wrap">
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
+                  MERN
+                </span>
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
+                  Ruby on Rails
+                </span>
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
+                  Django
                 </span>
               </li>
             </ul>
@@ -88,7 +157,8 @@ function Resume() {
             <ul>
               <li className="mb-4">
                 <h2 className="text-2xl font-medium text-gray-800">
-                  Maestro en Ciencias en Ingeniería Eléctrica (Opcion: Sistemas Computacionales)
+                  Maestro en Ciencias en Ingeniería Eléctrica (Opcion: Sistemas
+                  Computacionales)
                 </h2>
                 <div className="mt-1">
                   <div>
@@ -122,7 +192,6 @@ function Resume() {
                   </div>
                 </div>
               </li>
-              
             </ul>
           </div>
         </div>
