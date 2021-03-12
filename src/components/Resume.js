@@ -100,9 +100,6 @@ function Resume() {
                   Gatsby
                 </span>
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
-                  Ruby on Rails
-                </span>
-                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
                   Django
                 </span>
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
@@ -141,9 +138,7 @@ function Resume() {
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
                   MERN
                 </span>
-                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
-                  Ruby on Rails
-                </span>
+
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
                   Django
                 </span>
