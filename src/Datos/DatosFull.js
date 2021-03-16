@@ -1,9 +1,29 @@
 export const Data = [
   {
+    id: 10,
+    title: "Estadísticas México",
+    overview:
+      "Página creada utilizando React JS en donde se utilizan ApexCharts para realizar las gráficas en React.",
+    image: "./img/empleados.png",
+    dataImage: [
+      {
+        image: "/img/esta1.png",
+      },
+      {
+        image: "/img/esta2.png",
+      },
+      {
+        image: "/img/esta1.png",
+      },
+    ],
+    tec: "React, TailwindsCss, Netlify",
+    sitio: "https://estadistica-fsan.netlify.app/",
+    github: "https://github.com/fsantoyo86/estadistica",
+  },
+  {
     id: 9,
     title: "Nutrióloga",
-    overview:
-      "Página personal Nutrióloga.",
+    overview: "Página personal Nutrióloga elaborada en React JS permite realizar citas utilizando local storage.",
     image: "./img/empleados.png",
     dataImage: [
       {
@@ -20,6 +40,7 @@ export const Data = [
     sitio: "https://nutricion-rosalba.netlify.app/",
     github: "https://github.com/fsantoyo86/empleados-CRUD",
   },
+
   {
     id: 1,
     title: "Registro Empleados CRUD",
