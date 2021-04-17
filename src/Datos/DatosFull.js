@@ -88,7 +88,7 @@ export const Data = [
     id: 3,
     title: "Book-store",
     overview:
-      "Proyecto en donde se realizó una tienda de libros utilizando React y se hizo el despliegue en Nettlify.",
+      "Proyecto en donde se realizó una tienda de libros utilizando el stack MERN, cloudinary para almacenar las imágenes y se hizo el despliegue en Heroku.",
     image: "./img/books.png",
     dataImage: [
       {
