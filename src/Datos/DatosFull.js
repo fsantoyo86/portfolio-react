@@ -1,5 +1,35 @@
 export const Data = [
   {
+    id: 11,
+    title: "Reservaciones vuelos",
+    overview:
+      "Página creada utilizando el stack MERN para realizar reservaciones de vuelos. Se realiza autenticación de usuario y JWT",
+    image: "./img/empleados.png",
+    dataImage: [
+      {
+        image: "/img/test-1.png",
+      },
+      {
+        image: "/img/test-2.png",
+      },
+      {
+        image: "/img/test-3.png",
+      },
+      {
+        image: "/img/test-4.png",
+      },
+      {
+        image: "/img/test-5.png",
+      },
+      {
+        image: "/img/test-6.png",
+      },
+    ],
+    tec: "MERN, mongodb, react, express, node, JWT, Heroku",
+    sitio: "https://test-reservaciones.herokuapp.com/",
+    github: "https://github.com/fsantoyo86/reservaciones",
+  },
+  {
     id: 10,
     title: "Estadísticas México",
     overview:
