@@ -23,7 +23,8 @@ export const Data = [
   {
     id: 9,
     title: "Nutrióloga",
-    overview: "Página personal Nutrióloga elaborada en React JS permite realizar citas utilizando local storage.",
+    overview:
+      "Página personal Nutrióloga elaborada en React JS permite realizar citas utilizando local storage.",
     image: "./img/empleados.png",
     dataImage: [
       {
@@ -91,20 +92,32 @@ export const Data = [
     image: "./img/books.png",
     dataImage: [
       {
-        image: "/img/books.png",
+        image: "/img/bookstore1.png",
       },
       {
-        image: "/img/books2.png",
+        image: "/img/bookstore2.png",
       },
       {
-        image: "/img/books3.png",
+        image: "/img/bookstore3.png",
       },
       {
-        image: "/img/books4.png",
+        image: "/img/bookstore4.png",
+      },
+      {
+        image: "/img/bookstore5.png",
+      },
+      {
+        image: "/img/bookstore6.png",
+      },
+      {
+        image: "/img/bookstore7.png",
+      },
+      {
+        image: "/img/bookstore8.png",
       },
     ],
-    tec: "React, Netlify",
-    sitio: "https://book-store-fsantoyo.netlify.app/",
+    tec: "MERN, React, Node, Express, MongoDB, Cloudinary, Heroku",
+    sitio: "https://bookstore-mern.herokuapp.com/",
     github: "https://github.com/fsantoyo86/book-store",
   },
   {
