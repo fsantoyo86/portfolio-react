@@ -5,7 +5,7 @@ import image from '../img/perfil.png'
 function About() {
   return (
     <div className="bg-green-400 flex font-Jura z-10 justify-center items-center w-screen h-screen">
-      <div className="w-2/3 border border-gray-700 bg-gray-700 text-gray-50">
+      <div className="lg:w-2/3 md:w-2/3 sm:w-full w-full  border border-gray-700 bg-gray-700 text-gray-50">
         <div className="w-full">
           <img
             src="/img/banner.png"
