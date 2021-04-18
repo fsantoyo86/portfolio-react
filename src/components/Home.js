@@ -5,7 +5,7 @@ function Home() {
   return (
     <>
       <div className="bg-green-400 h-screen flex lg:flex-row md:flex-row sm:flex-col flex-col justify-center items-center">
-        <div className="bg-gray-700 rounded-full lg:w-96 md:w-72 sm:w-48 w-40 m-10 shadow-2xl transition duration-700 ease-in-out animate-bounce">
+        <div className="bg-gray-700 rounded-full lg:w-96 md:w-72 sm:w-48 w-40 m-10 lg:mt-10 md:mt-10 sm:mt-32 mt-32 shadow-2xl transition duration-700 ease-in-out animate-bounce">
           <img
             src="/img/perfil2.jpg"
             alt="profile"

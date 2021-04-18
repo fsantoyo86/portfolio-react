@@ -34,7 +34,7 @@ function About() {
               <span class="text-md whitespace-nowrap text-gray-100">
                 fa.santoyo.valdez.86@gmail.com
               </span>
-              <p className="text-sm text-gray-200 w-4/5 p-5">
+              <p className="text-sm text-gray-200 lg:w-4/5 md:w-4/5 sm:w-full w-full p-5">
                 I like manga, anime, I love going to the movies and watch
                 series. I enjoy playing and watching sports in general but my
                 heart is with football. I also love reading books, whether it
