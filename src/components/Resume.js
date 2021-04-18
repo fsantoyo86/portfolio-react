@@ -4,11 +4,11 @@ import image from '../img/resume.jpg'
 function Resume() {
     return (
       <div className="bg-green-400 text-gray-700 md:flex mx-auto font-Jura">
-        <div className="md:w-1/2 p-2 border-r-2 border-gray-700 border-dotted">
+        <div className="md:w-1/3 p-2 border-r-2 border-gray-700 border-dotted">
           <div className="md:fixed">
             <div className="md:block">
               <img
-                className="h-32 w-32 rounded-full lg:mx-36 lg:mt-16 md:mx-36 md:mt-16 sm:mx-auto sm:mt-10 mt-10 mx-auto"
+                className="h-40 w-40 rounded-full lg:mx-32 lg:mt-16 md:mx-32 md:mt-16 sm:mx-auto sm:mt-10 mt-10 mx-auto"
                 src={image}
                 alt="profile"
               />
@@ -17,7 +17,7 @@ function Resume() {
                   Francisco Santoyo
                 </h1>
                 <div className="md:text-lg text-gray-700">
-                  Desarrollador web Full Stack
+                  Full Stack Developer
                 </div>
               </div>
             </div>
@@ -26,15 +26,14 @@ function Resume() {
         <div className="md:w-2/3 p-2 w-full font-Jura">
           <div className="mx-4 mb-6">
             <h1 className="mb-4 lg:text-4xl md:text-3xl sm:text-3xl text-3xl text-gray-700 font-bold">
-              Resumen
+              Resume
             </h1>
             <p className="text-lg">
-              Profesional con pasión por la programación, el front end y el
-              análisis de datos. Capacidad de investigación y resolución de
-              problemas. Gusto por la planeación y organización de proyectos.
-              Habilidad para trabajar bajo presión y encontrar soluciones
-              creativas a los problemas. Interés en nuevas tecnologías y la
-              creación de nuevas ideas.
+              Professional with programming passion, whether it is front end or
+              backend. Research qualities and problem solving. I enjoy planning
+              and organizing projects. I have skills for working in teams and
+              under presure and I try to find creative solutions to problems. I
+              have interest in new technologies and creating new ideas.
             </p>
           </div>
           <div className="mx-4">
@@ -68,6 +67,9 @@ function Resume() {
                 </span>
               </li>
               <li className="mb-6 flex flex-wrap">
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
+                  PostgreSQL
+                </span>
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
                   MySQL
                 </span>
@@ -137,6 +139,9 @@ function Resume() {
               <li className="mb-6 flex flex-wrap">
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
                   MERN
+                </span>
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">
+                  PERN
                 </span>
 
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 text-green-500 font-medium bg-gray-700">

@@ -18,11 +18,11 @@ export default function Slider({ slides }) {
   return (
     <section className="relative flex items-center justify-center">
       <FaArrowAltCircleLeft
-        className="absolute top-100 bg-white text-3xl text-teal-400 hover:text-teal-300 shadow-3xl cursor-pointer rounded-full left-3"
+        className="absolute top-100 bg-white text-3xl opacity-40 hover:opacity-80 text-teal-400 hover:text-teal-300 shadow-3xl cursor-pointer rounded-full left-3"
         onClick={prevSlide}
       ></FaArrowAltCircleLeft>
       <FaArrowAltCircleRight
-        className="absolute top-100 text-3xl bg-white text-teal-400 hover:text-teal-300 shadow-3xl cursor-pointer rounded-full right-3"
+        className="absolute top-100 text-3xl bg-white opacity-40 hover:opacity-80 text-teal-400 hover:text-teal-300 shadow-3xl cursor-pointer rounded-full right-3"
         onClick={nextSlide}
       ></FaArrowAltCircleRight>
 

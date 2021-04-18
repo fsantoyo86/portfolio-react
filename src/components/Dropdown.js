@@ -22,25 +22,25 @@ function Dropdown({isOpen,toggle}) {
           to="/resume"
           className="p-4 hover:text-gray-700 hover:bg-green-400"
         >
-          Resumen
+          Resume
         </NavLink>
         <NavLink
           to="/projectsM"
           className="p-4 hover:text-gray-700 hover:bg-green-400"
         >
-          Proyectos
+          Projects
         </NavLink>
         <NavLink
           to="/courses"
           className="p-4 hover:text-gray-700 hover:bg-green-400"
         >
-          Cursos
+          Courses
         </NavLink>
         <NavLink
           to="/about"
           className="p-4 hover:text-gray-700 hover:bg-green-400"
         >
-          Acerca De
+          About
         </NavLink>
       </div>
     );

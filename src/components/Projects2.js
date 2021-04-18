@@ -4,9 +4,9 @@ import Slider from './Slider';
 
 function Mern(){
     return (
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 bg-green-400 justify-items-center">
+      <div className="grid lg:grid-cols-3 gap-6 px-5 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 bg-green-400 justify-items-center">
         {Data.map((db) => (
-          <div className="font-Jura w-6/7 bg-white rounded-sm overflow-hidden shadow-lg mx-5 my-5">
+          <div className="font-Jura lg:w-full md:w-full sm:w-4/5 w-4/5 bg-white rounded-sm overflow-hidden shadow-lg mx-5 my-5">
             <Slider
               slides={db.dataImage}
               className="lg:w-auto md:w-auto sm:w-auto w-auto h-44"
@@ -26,7 +26,7 @@ function Mern(){
                 href={db.sitio}
                 target="__blank"
               >
-                Sitio Web ->
+                Website->
               </a>
               <a
                 className="p-3 rounded-lg hover:bg-gray-700 hover:text-white"

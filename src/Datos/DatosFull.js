@@ -1,9 +1,9 @@
 export const Data = [
   {
     id: 11,
-    title: "Reservaciones vuelos",
+    title: "Flight Reservations",
     overview:
-      "Página creada utilizando el stack MERN para realizar reservaciones de vuelos. Se realiza autenticación de usuario y JWT",
+      "Website created with the MERN stack. The website books flight reservations. It implements an authentication system with json web tokens JWT.",
     image: "./img/empleados.png",
     dataImage: [
       {
@@ -31,9 +31,9 @@ export const Data = [
   },
   {
     id: 10,
-    title: "Estadísticas México",
+    title: "Mexican Statistics",
     overview:
-      "Página creada utilizando React JS en donde se utilizan ApexCharts para realizar las gráficas en React.",
+      "Website using ApexCharts in React to show some statistics of Mexico.",
     image: "./img/empleados.png",
     dataImage: [
       {
@@ -52,7 +52,7 @@ export const Data = [
   },
   {
     id: 9,
-    title: "Nutrióloga",
+    title: "Nutritionist website",
     overview:
       "Página personal Nutrióloga elaborada en React JS permite realizar citas utilizando local storage.",
     image: "./img/empleados.png",
@@ -74,7 +74,7 @@ export const Data = [
 
   {
     id: 1,
-    title: "Registro Empleados CRUD",
+    title: "CRUD employee register",
     overview:
       "Proyecto de fullstack MERNque permite realizar un registo de empleados utilizando todas las operaciones CRUD (crete, read, update, delete). Base de datos creada en MongoDB.",
     image: "./img/empleados.png",
