@@ -10,7 +10,7 @@ function About() {
           <img
             src="/img/banner.png"
             alt="profile"
-            className="lg:h-56 w-full md:h-56 sm:h-32 h-32"
+            className="lg:h-52 w-full md:h-52 sm:h-32 h-32"
           />
         </div>
 
