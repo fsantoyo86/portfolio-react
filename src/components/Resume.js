@@ -8,7 +8,7 @@ function Resume() {
           <div className="md:fixed">
             <div className="md:block">
               <img
-                className="h-40 w-40 rounded-full lg:mx-32 lg:mt-16 md:mx-32 md:mt-16 sm:mx-auto sm:mt-10 mt-10 mx-auto"
+                className="h-40 w-40 rounded-full lg:mx-24 lg:mt-16 md:mx-24 md:mt-16 sm:mx-auto sm:mt-10 mt-10 mx-auto"
                 src={image}
                 alt="profile"
               />

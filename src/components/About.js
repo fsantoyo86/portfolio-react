@@ -4,19 +4,19 @@ import image from '../img/perfil.png'
 
 function About() {
   return (
-    <div className="bg-green-400 flex font-Jura justify-center items-center w-screen h-screen">
-      <div className="w-2/3 border border-gray-700 bg-gray-700 text-gray-50 transition-shadow shadow-xl hover:shadow-xl">
+    <div className="bg-green-400 flex font-Jura z-10 justify-center items-center w-screen h-screen">
+      <div className="w-2/3 border border-gray-700 bg-gray-700 text-gray-50">
         <div className="w-full">
           <img
             src="/img/banner.png"
             alt="profile"
-            className="lg:h-64 w-full md:h-64 sm:h-40 h-40"
+            className="lg:h-64 w-full md:h-64 sm:h-32 h-32"
           />
         </div>
 
         <div className="flex items-center p-4">
           <div className="relative flex flex-col items-center w-full">
-            <div className="h-24 w-24 md rounded-full relative avatar flex items-end justify-end text-purple-400 min-w-max absolute -top-16 flex bg-purple-200 text-purple-100 row-start-1 row-end-3 text-purple-650 ring-1 ring-white">
+            <div className="h-24 w-24 md rounded-full relative avatar flex items-end justify-end text-purple-400 min-w-max -top-16 flex bg-purple-200 text-purple-100 row-start-1 row-end-3 text-purple-650 ring-1 ring-white">
               <img
                 className="h-24 w-24 md rounded-full relative"
                 src={image}
@@ -41,13 +41,13 @@ function About() {
                 they are thrillers, fantasy, fiction or romance.
               </p>
               <div className="py-2 flex space-x-2">
-                <button className="flex justify-center  max-h-max whitespace-nowrap focus:outline-none  focus:ring  focus:border-blue-300 rounded max-w-max border bg-transparent border-purple-400 text-purple-400 hover:border-purple-800 hover:border-purple-500 px-4 py-1 flex items-center hover:shadow-lg">
+                <button className="justify-center whitespace-nowrap focus:outline-none  focus:ring  focus:border-blue-300 rounded max-w-max border bg-transparent border-purple-400 text-purple-400 hover:border-purple-800 hover:border-purple-500 px-4 py-1 flex items-center hover:shadow-lg">
                   <Link to="/">
                     <span class="mr-2"></span>Home<span class="ml-2"></span>
                   </Link>
                 </button>
                 <Link to="projectsM">
-                  <button class="flex justify-center  max-h-max whitespace-nowrap focus:outline-none  focus:ring  focus:border-blue-300 rounded max-w-max text-gray-100 bg-green-500 hover:bg-green-600 px-4 py-1 flex items-center hover:shadow-lg">
+                  <button class="flex justify-center whitespace-nowrap focus:outline-none  focus:ring  focus:border-blue-300 rounded max-w-max text-gray-100 bg-green-500 hover:bg-green-600 px-4 py-1 flex items-center hover:shadow-lg">
                     <span class="mr-2">
                       <svg
                         height="20"

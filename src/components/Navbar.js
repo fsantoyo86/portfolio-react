@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom';
 function Navbar({toggle}) {
     return (
       <nav
-        className="flex justify-between sticky top-0 z-50 items-center h-16 bg-gray-700 text-green-400 relative shadow-lg font-Jura"
+        className="flex justify-between sticky top-0 z-50 items-center h-14 bg-gray-700 text-green-400 relative shadow-lg font-Jura"
         role="navigation"
       >
         <NavLink to="/" className="flex items-center pl-8">
