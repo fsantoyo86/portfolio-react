@@ -152,21 +152,30 @@ export const Data = [
   },
   {
     id: 4,
-    title: "Portfolio-muestra",
+    title: "Morelia Resort",
     overview:
-      "Portfolio muestra para el desarrollo de página personal e incluir los diferentes proyectos que se vayan elaborando.",
+      "Muestra la página de reservación de hotel, los diferentes aspectos que se ofrecen y las diferentes secciones y cuartos.",
     image: "./img/porfo.png",
     dataImage: [
       {
-        image: "/img/porfo.png",
+        image: "/img/hotel1.png",
       },
       {
-        image: "/img/porfo.png",
+        image: "/img/hotel2.png",
+      },
+      {
+        image: "/img/hotel3.png",
+      },
+      {
+        image: "/img/hotel4.png",
+      },
+      {
+        image: "/img/hotel5.png",
       },
     ],
-    sitio: "https://ejemplo-port.netlify.app/",
+    sitio: "https://hotel-moreliaresort.netlify.app/about",
     tec: "React, Netlify",
-    github: "https://github.com/fsantoyo86/ejemplo-portfolio",
+    github: "https://github.com/fsantoyo86/hotel-reservation",
   },
   {
     id: 5,
